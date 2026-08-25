@@ -29,33 +29,3 @@ The following issues are present in the project:
 18. `helper.js`: Incorrect leap year logic.
 19. `calculator.js`: Incorrect negative number handling.
 20. `storage.js`: Incorrect storage type.
-
-## How to Create GitHub Issues
-
-I've provided a script `create_issues.js` to automate the creation of these issues on GitHub.
-
-### Prerequisites
-
-- Node.js installed.
-- A GitHub Personal Access Token (PAT) with `repo` scope.
-
-### Steps
-
-1.  Set your GitHub token as an environment variable:
-    ```bash
-    export GITHUB_TOKEN=your_token_here
-    ```
-2.  Run the script:
-    ```bash
-    node create_issues.js
-    ```
-
-## How to Push Files
-
-If you haven't pushed the files yet, run the following commands in this directory:
-
-```bash
-git add .
-git commit -m "Add initial files and issue creation script"
-git push
-```
